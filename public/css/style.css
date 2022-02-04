@@ -1,0 +1,354 @@
+* { box-sizing: border-box; }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    height: 4rem;
+}
+
+.space-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('../img/images/fondoHeader.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50rem;
+    width: 100vw;
+}
+
+
+
+header {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.main-nav ul li a{
+    text-decoration: none;
+    padding: 0 8px;
+    color: white;
+}
+
+.main-nav ul li:hover a {
+    border-bottom: 2px solid lightgreen;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 9rem;
+}
+
+.hero-info {
+    margin-left: 3rem;
+    color: white;
+    width: 35%;
+}
+
+.hero-buttons {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.hero-buttons li {
+    width: 9rem;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.buy-button {
+    background: rgb(12, 218, 166);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.read-more-button {
+    background: cornflowerblue;
+    border-radius: 5px;
+    padding: 10px;
+    
+}
+
+.read-more-button a , .buy-button a{
+    text-decoration: none;
+    color:  white;
+
+}
+
+.or-item {
+    padding: 5px;
+    background-color: white;
+    border-radius: 50%;
+    color: black;
+    font-size: 15px;
+    position: relative;
+    z-index: 100;
+}
+
+.abaut-us {
+    margin-top: 5rem;
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.abaut-content { 
+    width: 50%;
+}
+
+.shape-two {
+    height: 7rem;
+}
+
+.service {
+    background: lightgray;
+    margin-top: 5rem;
+    padding: 6rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.service-content {
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item-box {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-box p {
+    text-align: center;
+}
+
+.slider-content {
+    background-image: url('../img/images/Layer2.png');
+    background-size: cover;
+    max-height: 40rem;
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300vw;
+}
+
+.slider {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    text-align: center;
+}
+
+.slider img {
+    margin-top: 4rem;
+}
+
+.slider-buttons {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    
+    font-size: 4rem;
+}
+
+.forware {
+    position: relative;
+    right: 20rem;
+    text-decoration: none;
+    color: rgba(169, 169, 169, 0.6);
+    
+}
+
+.back {
+    position: relative;  
+    left: 20rem;
+    text-decoration: none;
+    color: rgba(169, 169, 169, 0.6);
+}
+
+.people-say {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(52, 78, 126);
+}
+
+.say-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.say-box h2 {
+    font-size: 2.5rem;
+}
+
+.say-item {
+    display: flex;
+}
+
+.say-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.say-text {
+    width: 15rem;
+    margin-left: 2rem;
+}
+
+footer {
+    background-color: rgb(40, 61, 99);
+    padding: 6rem 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.contact {
+    width: 50%;
+}
+
+.contact-us {
+    margin-top: 2.5rem; 
+}
+
+.main-paragraph h2 {
+    margin: 0;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+}
+
+.contact-item p {
+    margin-left: 20px;
+}
+
+.client-form {
+    height: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+select {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+}
+
+input , select , textarea {
+    padding: 10px;
+    background-color: rgba(99, 119, 153, 0.473);
+    border: 0;
+    box-shadow: 0 0 5px rgba(99, 119, 153, 0.473);
+    border-radius: 3px;
+    color: white;
+    opacity: .5;
+}
+
+input::placeholder , textarea::placeholder {
+    color: white;
+    opacity: .5;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-buttons li {
+    margin: 0 5px;
+    list-style: none;
+    width: 10rem;
+    text-align: center;
+}
+
+.form-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.copyright {
+    position: relative;
+    bottom: 1.5rem;
+    width: 100%;
+}
+
+.field-feedback div{
+    background-color: lightpink;
+    color: red;
+    font-size: 12px;
+}
+
+.success {
+    width: 40%;
+    height: 50vw;
+    color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.back-button {
+    background: rgb(12, 218, 166);
+    text-decoration: none;
+    color:  white;
+    width: 9rem;
+    border-radius: 5px;
+    text-align: center;
+    padding: 1rem .5rem;
+}
+
+
