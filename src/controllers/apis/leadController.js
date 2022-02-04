@@ -49,7 +49,7 @@ module.exports = {
 
         }
         else {
-            res.render('landing', { 
+            res.render('index', { 
                 errors: errors.mapped(),
                 oldFormData: req.body
             });
